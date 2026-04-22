@@ -6,6 +6,7 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
+
     "scheme": "mercantware",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
@@ -15,8 +16,8 @@
     "android": {
       "package": "com.mercantware.app",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#E6F4FE"
+        "foregroundImage": "./assets/images/icon.png",
+        "backgroundColor": "#f2f6f9"
       },
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false
