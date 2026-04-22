@@ -18,6 +18,7 @@ A mobile business management application built with React Native and Expo, desig
 - [Authentication](#authentication)
 - [Contributing](#contributing)
 - [License](#license)
+- [Authors](#authors)
 
 ---
 
@@ -210,3 +211,14 @@ Please follow [Conventional Commits](https://www.conventionalcommits.org/) for c
 ## License
 
 This project is private. All rights reserved.
+
+## Authors
+
+**José Manuel** — Ingeniero en Sistemas  
+[GitHub](https://github.com/JManu02)
+**Juan Marin** — Ingeniero en Sistemas  
+[GitHub](https://github.com/JuanM-25)
+**Jose Castillo** — Ingeniero en Sistemas  
+[GitHub](https://github.com/JoseACO16)
+**Jerson Hernandez ** — Ingeniero en Sistemas  
+[GitHub](https://github.com/Jercahdz)
