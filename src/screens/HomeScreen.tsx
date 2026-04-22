@@ -408,33 +408,27 @@ export default function HomeScreen() {
             <Text style={styles.listTitle}>
               Mostrando {filteredClientes.length} de {clientes.length} clientes
             </Text>
-            <FlatList
-              data={filteredClientes}
-              keyExtractor={(item) => item.id.toString()}
-              renderItem={renderCliente}
-              scrollEnabled={false}
-              contentContainerStyle={styles.listContent}
-            />
+
+            {filteredClientes.length === 0 ? (
+              <View style={styles.emptyContainer}>
+                <Feather name="users" size={48} color="#d1d5db" />
+                <Text style={styles.emptyTitle}>No hay clientes</Text>
+                <Text style={styles.emptySubtitle}>
+                  {searchTerm
+                    ? "No se encontraron clientes con ese nombre"
+                    : "Agrega tu primer cliente"}
+                </Text>
+              </View>
+            ) : (
+              <FlatList
+                data={filteredClientes}
+                renderItem={renderCliente}
+                keyExtractor={(item) => item.id.toString()}
+                scrollEnabled={false}
+                contentContainerStyle={styles.listContent}
+              />
+            )}
           </View>
-          {filteredClientes.length === 0 ? (
-            <View style={styles.emptyContainer}>
-              <Feather name="users" size={48} color="#d1d5db" />
-              <Text style={styles.emptyTitle}>No hay clientes</Text>
-              <Text style={styles.emptySubtitle}>
-                {searchTerm
-                  ? "No se encontraron clientes con ese nombre"
-                  : "Agrega tu primer cliente"}
-              </Text>
-            </View>
-          ) : (
-            <FlatList
-              data={filteredClientes}
-              renderItem={renderCliente}
-              keyExtractor={(item) => item.IdCliente.toString()}
-              scrollEnabled={false}
-              contentContainerStyle={styles.listContent}
-            />
-          )}
         </ScrollView>
 
         {/* Modal agregar/editar */}
