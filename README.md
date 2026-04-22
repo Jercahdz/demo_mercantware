@@ -213,12 +213,11 @@ Please follow [Conventional Commits](https://www.conventionalcommits.org/) for c
 This project is private. All rights reserved.
 
 ## Authors
-
-**José Manuel** — Ingeniero en Sistemas  
 [GitHub](https://github.com/JManu02)
-**Juan Marin** — Ingeniero en Sistemas  
+**José Manuel** — Ingeniero en Sistemas  
 [GitHub](https://github.com/JuanM-25)
-**Jose Castillo** — Ingeniero en Sistemas  
+**Juan Marin** — Ingeniero en Sistemas  
 [GitHub](https://github.com/JoseACO16)
-**Jerson Hernandez ** — Ingeniero en Sistemas  
+**Jose Castillo** — Ingeniero en Sistemas  
 [GitHub](https://github.com/Jercahdz)
+**Jerson Hernandez** — Ingeniero en Sistemas  
